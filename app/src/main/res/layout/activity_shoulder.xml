@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please fill in the blanks with the appropriate no. that describes your condition the best while doing the below mentioned activities:"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="1. Use Back Pocker"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="1. Perineal care"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="3. Wash opposite axilla"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="4. Fat with utensil"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="5. Comb hair"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="6. Use hand with arm at shoulder level"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="7. Carry 10-15 lbs with arm at side"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="8. Dress up"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="9. Sleep on affected side"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="10. Pulling"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="11. Use hand overhead"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="12. Throwing"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="13. Lifting"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="14. Do usual work"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="15. Do usual sport"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mild Compromise"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Difficulty"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="With Aid"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Unable"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

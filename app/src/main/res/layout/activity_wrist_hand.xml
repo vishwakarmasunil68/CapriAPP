@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="The Following Questions refer to function of your right/left wrist or hand during the past 1 week"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="(a.) Right/Left Wrist or Hand"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="1.) Overall, how well did your right/left hand work?"
+                    android:textColor="#000000" />
+
+                <RadioGroup
+                    android:id="@+id/rg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V. Good" />
+
+                    <RadioButton
+                        android:id="@+id/rb2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Good" />
+
+                    <RadioButton
+                        android:id="@+id/rb3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fair" />
+
+                    <RadioButton
+                        android:id="@+id/rb4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Poor" />
+
+                    <RadioButton
+                        android:id="@+id/rb5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V.Poor" />
+
+                </RadioGroup>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="2.) How well did your right/left fingers move?"
+                    android:textColor="#000000" />
+
+                <RadioGroup
+                    android:id="@+id/rg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V. Good" />
+
+                    <RadioButton
+                        android:id="@+id/rb7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Good" />
+
+                    <RadioButton
+                        android:id="@+id/rb8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fair" />
+
+                    <RadioButton
+                        android:id="@+id/rb9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Poor" />
+
+                    <RadioButton
+                        android:id="@+id/rb10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V.Poor" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="3.) How well did your right/left wrist move?"
+                    android:textColor="#000000" />
+
+                <RadioGroup
+                    android:id="@+id/rg5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V. Good" />
+
+                    <RadioButton
+                        android:id="@+id/rb12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Good" />
+
+                    <RadioButton
+                        android:id="@+id/rb13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fair" />
+
+                    <RadioButton
+                        android:id="@+id/rb14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Poor" />
+
+                    <RadioButton
+                        android:id="@+id/rb15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V.Poor" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="4.) How was the strength in your right/left hand?"
+                    android:textColor="#000000" />
+
+                <RadioGroup
+                    android:id="@+id/rg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V. Good" />
+
+                    <RadioButton
+                        android:id="@+id/rb17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Good" />
+
+                    <RadioButton
+                        android:id="@+id/rb18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fair" />
+
+                    <RadioButton
+                        android:id="@+id/rb19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Poor" />
+
+                    <RadioButton
+                        android:id="@+id/rb20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V.Poor" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="5.) How was the sensation(feeling) in your right/left hand?"
+                    android:textColor="#000000" />
+
+                <RadioGroup
+                    android:id="@+id/rg4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V. Good" />
+
+                    <RadioButton
+                        android:id="@+id/rb22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Good" />
+
+                    <RadioButton
+                        android:id="@+id/rb23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fair" />
+
+                    <RadioButton
+                        android:id="@+id/rb24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Poor" />
+
+                    <RadioButton
+                        android:id="@+id/rb25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V.Poor" />
+
+                </RadioGroup>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="The Following Questions refer to the ability of your hand(s) to do a certain task during the past week"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="(a.) Left/Right Hand"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="1.) Turn a door knob"
+                    android:textColor="#000000" />
+
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+
+                <!--new layout-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="2.) Pick up a coin"
+                    android:textColor="#000000" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+
+                <!--new layout-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="3.) Hold a glass of water"
+                    android:textColor="#000000" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="4.) Turn a key in a lock"
+                    android:textColor="#000000" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb45"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+
+                <!--new layout-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="5.) Hold a frying pan"
+                    android:textColor="#000000" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb46"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb47"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb49"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb50"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+
+                <!--new main layout-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="(b.) Using both hands"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="1.) Open a jar"
+                    android:textColor="#000000" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb51"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb52"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb53"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb54"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb55"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+
+                <!--new layout-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="2.) Button a shirt/blouse"
+                    android:textColor="#000000" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb56"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb57"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb58"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb59"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb60"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+
+                <!--new layout-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="3.) Eat with a knife/folk"
+                    android:textColor="#000000" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb61"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb62"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb63"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb64"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb65"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+
+                <!--new layout-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="4.) Carry a grocery bag"
+                    android:textColor="#000000" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb66"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb67"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb68"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb69"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb70"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+
+                <!--new layout-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="5.) Wash dishes"
+                    android:textColor="#000000" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb71"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb72"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb73"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb74"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb75"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+
+                <!--new layout-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="6.) Wash your hair"
+                    android:textColor="#000000" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb76"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb77"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb78"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb79"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb80"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+
+                <!--new layout-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="7.) Tie shoeless / knots"
+                    android:textColor="#000000" />
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:id="@+id/tbgt_door_knob12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Not at all difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb82"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="A little difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb83"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Somewhat difficult" />
+
+                        <RadioButton
+                            android:id="@+id/rb84"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Moderately difficult" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:id="@+id/rb85"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Very difficult" />
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Submit" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

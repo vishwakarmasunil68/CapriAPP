@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CapriAPP</string>
+    <string-array name="referral">
+        <item>Consultant</item>
+        <item>Friend or Relative</item>
+        <item>Newspaper</item>
+        <item>Website</item>
+        <item>Any Other</item>
+        <item>Social Media</item>
+    </string-array>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.sundroid.capriapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In which joint you have problems"/>
+
+    <Button
+        android:id="@+id/btn_adl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADL"/>
+
+    <Button
+        android:id="@+id/btn_ankle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ankle and Foot"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+    <Button
+        android:id="@+id/btn_elbow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elbow"/>
+
+    <Button
+        android:id="@+id/btn_knee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Knee"/>
+
+    <Button
+        android:id="@+id/btn_pain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pain"/>
+
+    <Button
+        android:id="@+id/btn_shoulder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoulder"/>
+
+    <Button
+        android:id="@+id/btn_womac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WOMAC"/>
+
+    <Button
+        android:id="@+id/btn_wrist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wrist and Hand"/>
+
+    <Button
+        android:id="@+id/btn_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Graph"/>
+
+</LinearLayout>

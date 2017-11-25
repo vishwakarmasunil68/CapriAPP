@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sundroid.capriapp.KneeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please answer each question by checking the response that best describes you over the last 1 to 2 days"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. I Change position to try to get my back comfortable"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. I walk slowly than usual because of my back"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Because of my back. I have difficulty in doing any of the jobs that I usually do around the house."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Because of my Back.I use a handrail to get upstairs"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Because of my Back. I wish to lie down to rest"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. Because of my Back. I have to told on to something to get out of an easy chair"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. Because of my Back. I try to get other people to do things for me"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. I have difficulty in dressing up because of my back"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9. I have a proble while standing up for long periods of time because of my back."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10. Because of my Back, bending or kneeling down is difficult for me."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11. My back is painful almost all the time."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12. I find is difficult to turnover in bed because of my back."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13. I have trouble putting on my socks (or stocking) because of my pain."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14. I walk short distance than usual because of my back pain"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15. I have sleep disturbances because of my back."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16. Because of my Back pain I avoid heavy jobs."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17. Because of my Back. I am more irritable and bad tampered with people than usual"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18. Because of my back, I go upstairs slowly than usual."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19. I have more pain in the back, I go upstairs slowly than usual."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19. I have more pain in the back while laughing/ sneezing/ coughing."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20. I have pain in the back while travelling/driving."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <com.sundroid.capriapp.view.ToggleButtonGroupTableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Never"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sometime"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Frequently"
+                            android:textSize="14sp"
+                            android:textColor="#000000"/>
+                    </TableRow>
+
+                </com.sundroid.capriapp.view.ToggleButtonGroupTableLayout>
+
+                <!--new layout-->
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
